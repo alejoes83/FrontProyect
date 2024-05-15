@@ -2,7 +2,8 @@ import axios from'axios';
 import {Link} from 'react-router-dom';
 import {useState, useEffect} from 'react';
 
-const URL2 = 'http://localhost:5000/api/productos/';
+//const URL2 = 'http://localhost:5000/api/productos/';
+const URL2 = 'https://talento-tech.onrender.com/api/productos';
 
 const MostrarProductos = () => {
 
