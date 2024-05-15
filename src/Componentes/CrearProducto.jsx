@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 import {useState} from "react";
 
 //const URL2 = 'http://localhost:5000/api/productos/';
-const URL2 = 'https://talento-tech.onrender.com/api/productos';
+const URL2 = 'https://talento-tech.onrender.com/api/productos/';
 
 const CrearProducto =() => {
 
