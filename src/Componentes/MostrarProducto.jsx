@@ -29,7 +29,8 @@ const eliminarProducto = async (id) => {
         <div className='container'>
             <div className='row'>
                 <div className='col'>
-                    <Link to='/productos/agregar/' className='btn btn-primary btn-lg mt-4 mb-4'><i className="fa-solid fa-file-circle-plus"></i> </Link>
+                    <Link to='/productos/agregar/' className='btn btn-primary btn-lg mt-5 mb-5'>Nuevo producto
+                        <i className="fa-solid fa-file-circle-plus"></i> </Link>
                     <table className="table table-success table-striped-columns">
                         <thead className='table-light'>
                             <tr>

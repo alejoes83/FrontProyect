@@ -29,7 +29,8 @@ const eliminarClientes = async (id) => {
         <div className='container'>
             <div className='row'>
                 <div className='col'>
-                    <Link to='/clientes/agregar/' className='btn btn-primary btn-lg mt-4 mb-4'><i className="fa-regular fa-address-card"></i> </Link>
+                    <Link to='/clientes/agregar/' className='btn btn-primary btn-lg mt-5 mb-5'>Nuevo Cliente 
+                        <i className="fa-regular fa-address-card"> </i> </Link>
                     <table className="table table-success table-striped-columns">
                         <thead className='table-light'>
                             <tr>

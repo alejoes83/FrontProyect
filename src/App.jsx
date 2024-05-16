@@ -10,6 +10,7 @@ import CompMostrarClientes from './Componentes/CompMostrarCliente';
 import MostrarProductos from './Componentes/MostrarProducto';
 import EditarProducto from './Componentes/EditarProducto';
 import CompFooter from './Componentes/footer';
+import logo from './imagenes/logo.png'
 
 // Importamos Router
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -21,9 +22,10 @@ function App() {
    <div className='App'>
     <header className='container'>
     
-<nav className="navbar bg-primary">
+<nav className="navbar navbar-expand-lg bg-primary">
   <div className="container-fluid">
-    <a href= "Login" className="navbar-brand"> LOGIN</a>
+    <a href= "Login" className="navbar-brand"> <img src = {logo} className="App-logo" alt="logo" width="90" height="72"/>
+    </a>
 
     <button
       aria-controls="navbarNav"
@@ -38,10 +40,10 @@ function App() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item"><a className="nav-link active" href="/"> Home</a></li>
-        <li className="nav-item"><a className="nav-link active" href="/clientes">Clientes</a></li>
-        <li className="nav-item"><a className="nav-link" href="/productos">Productos</a></li>
-        <li className="nav-item"><a aria-disabled="true" className="nav-link disabled">Disabled</a></li>
+        <li className="nav-item fs-2"><a className="nav-link active" href="/"> Home  </a></li>
+        <li className="nav-item fs-2"><a className="nav-link active" href="/clientes">Clientes </a></li>
+        <li className="nav-item fs-2"><a className="nav-link active" href="/productos">Productos</a></li>
+        
       </ul>
     </div>
   </div>
